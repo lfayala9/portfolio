@@ -1,7 +1,7 @@
 .section_intro{
     background-color: #EB7775;
     background: linear-gradient(120deg, #314fd4 60%, #fe9065 60.5%);
-    height: 100vh;
+    height: 90vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -42,5 +42,11 @@
     .main_content{
         max-width: 1300px;
         padding: 0
+    }
+    .main_text{
+        font-size: 5rem;
+    }
+    .description_text{
+        font-size: 1.8rem;
     }
 }

@@ -4,6 +4,7 @@ import style from "./styles.module.css";
 import Image from "next/image";
 import background from "../../assets/luis_back-removebg-preview.png";
 import avatar from "../../assets/luisavatar.png";
+import { Paragraph } from "../Animations";
 const Intro = () => {
   return (
     <section className={style.section_intro}>
@@ -19,7 +20,9 @@ const Intro = () => {
           </p>
         </article>
         <figure className={style.figure_container}>
+          <Paragraph>
           <Image src={avatar} alt="nada" className={style.avatar} width={340} />
+          </Paragraph>
           <Image src={background} alt="nada" className={style.pattern} width={450} />
         </figure>
       </div>

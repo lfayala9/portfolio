@@ -1,12 +1,24 @@
 .section_project{
     background-color: #F9F9FB;
-    height: 100vh;
     display: flex;
+    flex-direction: column;
+    position: relative;
+    align-items: center;
     justify-content: center;
 }
 .projects_text{
-    margin-top: 3rem;
+    position: absolute;
+    top: 3rem;
     text-align: center;
+    align-self: center;
+}
+.project_container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 15rem;
+    gap: 50px;
+    width: 80%;
 }
 .help_text{
     margin:0 ;
