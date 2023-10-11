@@ -1,0 +1,19 @@
+.section_project{
+    background-color: #F9F9FB;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+.projects_text{
+    margin-top: 3rem;
+    text-align: center;
+}
+.help_text{
+    margin:0 ;
+    font-size: 3rem;
+    color: #314fd4;
+}
+.description_text{
+    margin: 0;
+    font-size: 1.8rem;
+}

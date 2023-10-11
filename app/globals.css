@@ -1,0 +1,23 @@
+@font-face {
+    font-family: 'Cabinet';
+    src: url(../public/fonts/CabinetGrotesk-Extrabold.otf);
+    font-weight: bolder;
+    font-style: bolder;
+}
+@font-face {
+    font-family: 'Cabinet';
+    src: url(../public/fonts/CabinetGrotesk-Regular.otf);
+    font-weight: normal;
+    font-style: normal;
+}
+h1{
+    font-family: 'Cabinet';
+    font-weight: bolder;
+}
+p{
+    font-family: 'Cabinet';
+    font-weight: normal;
+}
+body{
+    margin: 0;
+}
