@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 import { PropsWithChildren } from "react";
 
-export const Paragraph = ({children}: PropsWithChildren) => {
+export const Reveal = ({children}: PropsWithChildren) => {
     return (
         <motion.div
         initial={{ opacity: 0, y: 50 }}
@@ -12,4 +12,17 @@ export const Paragraph = ({children}: PropsWithChildren) => {
        {children}
       </motion.div>
     )
+}
+
+export const Menu = ({children}: PropsWithChildren) => {
+  return (
+      <motion.div
+      initial={{ opacity: 0, y: 10 }}
+      whileInView={{ opacity: 1, y: 0 }}
+      viewport={{ once: true }}
+      transition={{ duration: 0.25, delay: 0.15 }}
+    >
+     {children}
+    </motion.div>
+  )
 }

@@ -1,0 +1,39 @@
+.main_header{
+    width: 100%;
+    height: 60px;
+    position: fixed;
+    background-color: transparent;
+    z-index: 999;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.logo{
+    color: #fe9065;
+    margin-left: 2rem;
+    cursor: pointer;
+}
+.tick{
+    color: rgb(54, 54, 54);
+}
+.nav_button{
+    margin-right: 2rem;
+    margin-top: 1rem;
+}
+
+.nav_menu{
+    background-color: beige;
+    transform: 0.2s reveal ease-out;
+}
+
+@keyframes reveal {
+    0%{
+        opacity: 0.5;
+        width: 1px;
+    }
+    100%{
+        opacity: 1;
+        width: 100%;
+    }
+}

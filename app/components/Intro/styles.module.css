@@ -1,5 +1,4 @@
 .section_intro{
-    background-color: #EB7775;
     background: linear-gradient(120deg, #314fd4 60%, #fe9065 60.5%);
     height: 90vh;
     display: flex;
@@ -38,9 +37,16 @@
     top: 2.6em;
     right: 4.4em;
 }
-@media (min-width: 1900px) {
+.icons_tech{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    padding: 0;
+}
+@media (min-width: 1590px) {
     .main_content{
-        max-width: 1300px;
+        max-width: 1050px;
         padding: 0
     }
     .main_text{
@@ -48,5 +54,35 @@
     }
     .description_text{
         font-size: 1.8rem;
+    }
+}
+
+@media (max-width: 700px) {
+    .section_intro{
+        background: #314fd4;
+    }
+    .main_content{
+        flex-direction: column-reverse;
+        padding: 0;
+        gap: 20px
+    }
+    .pattern{
+        display: none;
+    }
+    .avatar{
+        position: relative;
+        top: 10px;
+        left: 10px;
+    }
+    .article{
+        align-items: center;
+    }
+    .description_text{
+        text-align: center;
+    }
+    .figure_container{
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
 }

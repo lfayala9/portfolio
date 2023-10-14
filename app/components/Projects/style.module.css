@@ -1,22 +1,26 @@
 .section_project{
-    background-color: #F9F9FB;
+    background-color: #ffe1d7;
     display: flex;
     flex-direction: column;
+    height: 100vh;
     position: relative;
     align-items: center;
     justify-content: center;
 }
 .projects_text{
     position: absolute;
-    top: 3rem;
+    top: 3.5rem;
     text-align: center;
     align-self: center;
 }
 .project_container{
+    background-color: #ffe1d7;
+    border-radius: 2rem;
+    position: absolute;
+    top: 13rem;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    margin-top: 15rem;
     gap: 50px;
     width: 80%;
 }

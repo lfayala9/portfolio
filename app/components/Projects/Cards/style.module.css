@@ -10,8 +10,8 @@
   }
   
   .article_wrapper:hover {
-    -webkit-box-shadow: 10px 10px 0 #4e84ff, 20px 20px 0 #4444bd;
-    box-shadow: 10px 10px 0 #4e84ff, 20px 20px 0 #4444bd;
+    -webkit-box-shadow: 10px 10px 0 #314fd4, 20px 20px 0 #fe9065;
+    box-shadow: 10px 10px 0 #314fd4, 20px 20px 0 #fe9065;
     border-color: #0578c5;
     -webkit-transform: translate(-20px, -20px);
     -ms-transform: translate(-20px, -20px);
