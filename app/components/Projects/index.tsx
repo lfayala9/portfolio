@@ -3,6 +3,7 @@ import React from "react";
 import style from "./style.module.css";
 import { motion } from "framer-motion";
 import { Reveal } from "../Animations";
+import projects from "./projects";
 import Card from "./Cards";
 const Projects = () => {
   return (
@@ -16,9 +17,9 @@ const Projects = () => {
         </Reveal>
       </div>
       <div className={style.project_container}>
-        <Card/>
-        <Card/>
-        <Card/>
+        {projects.map((i) => (
+          <Card project={i} key={i.id}/>
+        ))}
       </div>
     </section>
   );

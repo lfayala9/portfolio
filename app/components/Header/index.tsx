@@ -12,7 +12,7 @@ const Header = () => {
         <span className={style.tick}>/</span>LF
       </h1>
       <div className={style.nav_button}>
-        <Hamburger color="#314fd4" toggled={open} toggle={setOpen}/>
+        <Hamburger color="#2f2d2b" toggled={open} toggle={setOpen}/>
         {open && <Menu><div className={style.nav_menu}>CUCU</div></Menu>}
       </div>
     </header>

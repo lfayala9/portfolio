@@ -2,17 +2,22 @@ import { Reveal } from "@/components/Animations";
 import style from "./style.module.css";
 import React from "react";
 
-const Card = () => {
+interface ProjectType {
+  id: number
+  name: string
+  description: string
+}
+
+const Card = ({ project } : { project: ProjectType }) => {
   return (
     <Reveal>
       <article className={style.article_wrapper}>
         <div className={`${style.rounded_lg} ${style.container_project}`}>
-          a
         </div>
         <div className={style.project_info}>
           <div className={style.flex_pr}>
             <h1 className={`${style.project_title} ${style.text_nowrap}`}>
-              Project
+              {project?.name}
             </h1>
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -37,7 +42,7 @@ const Card = () => {
               />
             </svg>
           </div>
-            <p>balbalbalbalbala balbalbalbalbala balbalbalbalbala</p>
+            <p>{project?.description}</p>
           <div className={style.types}>
             <span
               style={{

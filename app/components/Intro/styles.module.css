@@ -85,4 +85,8 @@
         align-items: center;
         justify-content: center;
     }
+    .icons_tech{
+        flex-wrap: wrap;
+        padding: 0 80px;
+    }
 }
