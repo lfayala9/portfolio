@@ -13,7 +13,7 @@
 }
 .article{
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     flex-direction: column;
 }
 .main_text{
@@ -25,7 +25,8 @@
 .description_text{
     font-size: 1.4em;
     color: whitesmoke;
-    margin: 0
+    margin: 0;
+    padding-right: 15px;
 }
 
 .figure_container{

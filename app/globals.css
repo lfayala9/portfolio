@@ -20,6 +20,11 @@ p{
     font-family: 'Cabinet';
     font-weight: normal;
 }
+span{
+    font-family: 'Cabinet';
+    font-weight: normal;
+}
 body{
     margin: 0;
+    background-color: #ffe1d7;
 }

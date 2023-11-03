@@ -1,8 +1,6 @@
 .section_project{
-    background-color: #ffe1d7;
     display: flex;
     flex-direction: column;
-    height: 100vh;
     position: relative;
     align-items: center;
     justify-content: center;
@@ -14,7 +12,6 @@
     align-self: center;
 }
 .project_container{
-    background-color: #ffe1d7;
     border-radius: 2rem;
     position: absolute;
     top: 13rem;
@@ -23,6 +20,7 @@
     flex-wrap: wrap;
     gap: 50px;
     width: 80%;
+    padding-bottom: 2rem;
 }
 .help_text{
     margin:0 ;

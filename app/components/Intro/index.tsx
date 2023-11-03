@@ -27,7 +27,8 @@ const Intro = () => {
             </span>
           </h1>
           <p className={style.description_text}>
-            Crafting Fullstack apps and creating great user experiences
+            My name is Luis Ayala and I make Fullstack apps and
+            great user experiences
           </p>
           <Reveal>
             <ul className={style.icons_tech}>

@@ -1,7 +1,6 @@
 "use client";
 import React from "react";
 import style from "./style.module.css";
-import { motion } from "framer-motion";
 import { Reveal } from "../Animations";
 import projects from "./projects";
 import Card from "./Cards";
