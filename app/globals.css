@@ -4,6 +4,7 @@
     font-weight: bolder;
     font-style: bolder;
 }
+
 @font-face {
     font-family: 'Cabinet';
     src: url(../public/fonts/CabinetGrotesk-Regular.otf);
@@ -11,20 +12,27 @@
     font-style: normal;
 }
 
-h1{
+h1 {
     font-family: 'Cabinet';
     font-weight: bolder;
 }
 
-p{
+p {
     font-family: 'Cabinet';
     font-weight: normal;
 }
-span{
+
+a {
+    font-family: 'Cabinet';
+    font-weight: bolder;
+}
+
+span {
     font-family: 'Cabinet';
     font-weight: normal;
 }
-body{
+
+body {
     margin: 0;
-    background-color: #ffe1d7;
+    background-color: #fad9b8;
 }

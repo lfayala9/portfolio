@@ -1,20 +1,23 @@
+/* 
+ */
+
 .section_project{
     display: flex;
     flex-direction: column;
-    position: relative;
     align-items: center;
     justify-content: center;
 }
 .projects_text{
-    position: absolute;
+    position: relative;
     top: 3.5rem;
     text-align: center;
     align-self: center;
 }
+
 .project_container{
     border-radius: 2rem;
-    position: absolute;
-    top: 13rem;
+    position: relative;
+    top: 5rem;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
@@ -22,6 +25,7 @@
     width: 80%;
     padding-bottom: 2rem;
 }
+
 .help_text{
     margin:0 ;
     font-size: 3rem;
@@ -29,5 +33,5 @@
 }
 .description_text{
     margin: 0;
-    font-size: 1.8rem;
+    font-size: 1.6rem;
 }

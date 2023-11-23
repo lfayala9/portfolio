@@ -28,7 +28,10 @@
     margin: 0;
     padding-right: 15px;
 }
-
+.stack_text{
+    font-size: 1rem;
+    color: whitesmoke;
+}
 .figure_container{
     margin: 0;
     position: relative;
@@ -45,6 +48,17 @@
     gap: 20px;
     padding: 0;
 }
+.icon{
+    padding-top: 4.5px;
+    border-radius: 4px;
+    transition: 0.4s;
+}
+.icon:hover{
+    background-color: #2a40af;
+    cursor: pointer;
+    transform: translateY(-5px)
+}
+
 @media (min-width: 1590px) {
     .main_content{
         max-width: 1050px;
@@ -79,6 +93,9 @@
         align-items: center;
     }
     .description_text{
+        text-align: center;
+    }
+    .stack_text{
         text-align: center;
     }
     .figure_container{

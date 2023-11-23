@@ -1,4 +1,4 @@
-.main_header{
+.main_header {
     width: 100%;
     height: 60px;
     position: fixed;
@@ -7,33 +7,46 @@
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
+    backdrop-filter: blur(15px);
+    -webkit-backdrop-filter: blur(15px);
 }
 
-.logo{
+.logo {
     color: #fe9065;
     margin-left: 2rem;
     cursor: pointer;
 }
-.tick{
+
+.tick {
     color: rgb(54, 54, 54);
 }
-.nav_button{
+
+.nav_button {
     margin-right: 2rem;
-    margin-top: 1rem;
 }
 
-.nav_menu{
-    background-color: beige;
-    transform: 0.2s reveal ease-out;
+.nav_menu {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    gap: 4rem;
 }
 
-@keyframes reveal {
-    0%{
-        opacity: 0.5;
-        width: 1px;
-    }
-    100%{
-        opacity: 1;
-        width: 100%;
-    }
+.nav_menu > li > a {
+    cursor: pointer;
+    text-decoration: none ;
+    color: rgb(54, 54, 54);
+    transition: 0.4s;
+    padding: 3px;
+    border-radius: 5px;
 }
+.nav_menu > li > a:hover {
+    background-color: white;
+    -webkit-box-shadow: 3px 3px 0 #314fd4, 6px 6px 0 #8f4426;
+    box-shadow: 3px 3px 0 #314fd4, 6px 6px 0 #8f4426;
+    border-color: #0578c5;
+    -webkit-transform: translate(-6px, -6px);
+    -ms-transform: translate(-6px, -6px);
+    transform: translate(-6px, -6px);
+}
+

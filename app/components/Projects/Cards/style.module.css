@@ -10,12 +10,12 @@
   }
   
   .article_wrapper:hover {
-    -webkit-box-shadow: 10px 10px 0 #314fd4, 20px 20px 0 #fe9065;
-    box-shadow: 10px 10px 0 #314fd4, 20px 20px 0 #fe9065;
+    -webkit-box-shadow: 6px 6px 0 #314fd4, 10px 10px 0 #fe9065;
+    box-shadow: 6px 6px 0 #314fd4, 10px 10px 0 #fe9065;
     border-color: #0578c5;
-    -webkit-transform: translate(-20px, -20px);
-    -ms-transform: translate(-20px, -20px);
-    transform: translate(-20px, -20px);
+    -webkit-transform: translate(-10px, -10px);
+    -ms-transform: translate(-10px, -10px);
+    transform: translate(-10px, -10px);
   }
   
   .article_wrapper:active {
