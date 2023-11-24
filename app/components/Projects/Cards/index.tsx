@@ -22,7 +22,7 @@ const Card = ({ project } : { project: ProjectType }) => {
     <Reveal>
       <article className={style.article_wrapper}>
         <div className={`${style.rounded_lg} ${style.container_project}`}>
-          <Image src={project.logo} alt='logo' width={200}/>
+          <Image src={project.logo != null ? project.logo : ''} alt='logo' width={200}/>
         </div>
         <div className={style.project_info}>
           <div className={style.flex_pr}>
