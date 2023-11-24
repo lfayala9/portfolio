@@ -10,7 +10,7 @@ interface ProjectType {
   name: string
   description: string
   tech: string[]
-  logo?: StaticImageData
+  logo?: StaticImport
   isFront?: boolean
   url?: string
   github: string
@@ -22,7 +22,7 @@ const Card = ({ project } : { project: ProjectType }) => {
     <Reveal>
       <article className={style.article_wrapper}>
         <div className={`${style.rounded_lg} ${style.container_project}`}>
-          <Image src={project?.logo} alt='logo' width={200}/>
+          <Image src={project.logo} alt='logo' width={200}/>
         </div>
         <div className={style.project_info}>
           <div className={style.flex_pr}>
